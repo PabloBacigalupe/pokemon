@@ -14,6 +14,7 @@ const Footer = () => {
           <a href="#">Instagram</a>
         </li>
       </ul>
+      //comentario inofensivo
     </footer>
   );
 };
