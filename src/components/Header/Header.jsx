@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
-
-import Nav from "./Nav";
-
 import { UserContext } from "../../context/UserContext";
+import Navbar from "./Navbar"
+import PokeLogo from '../../assets/pokemon-logo-pokemon-icon-transparent-free-png.webp';
 
 const Header = () => {
 
@@ -12,12 +11,17 @@ const Header = () => {
   // Hook para navegar entre rutas
   const navigate = useNavigate();
 
-  const handleOnClick = () => navigate("/");
 
 
 
   return <div>
-    <p>Header</p>
+
+      <Navbar/>
+      <img src={PokeLogo} alt="pokeLogo" className="poke-logo" />
+
+
+    
+
     
     </div>;
 };
