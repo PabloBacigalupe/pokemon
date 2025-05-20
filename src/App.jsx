@@ -1,6 +1,7 @@
-import { useContext, useState } from 'react'
-import { BrowserRouter } from 'react-router-dom'
-import reactLogo from "./assets/react.svg";
+import { useContext, useState } from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import "./index.css";
+
 import "./App.css";
 import Header from "./components/Header";
 import Main from "./components/Main";
