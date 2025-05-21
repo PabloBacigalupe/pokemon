@@ -14,7 +14,7 @@ body {
 /* Navbar */
 .nav-bar {
   border-radius: 8px;
-  background-color: #e9413e; /* rojo estilo pokebola */
+  background-color: #e9413e; 
   padding: 10px 20px;
   display: flex;
   justify-content: center;
