@@ -5,7 +5,6 @@ import React from "react";
 
 const Card = ({ data }) => {
   // const { name, id, sprites,  } = data;
-  // const hora = dt_txt.split(" ")[1].slice(0, 5);
 
   return (
     <div className="pokemon-card">
